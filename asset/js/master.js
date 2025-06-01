@@ -1,6 +1,7 @@
 const _li = document.querySelectorAll('#sideBar-navBar>ul>li')
 const _backs = document.querySelectorAll('#backs>div')
 let _body = document.body
+let homeBtn = document.getElementById('home-btn')
 
 _li.forEach((item) => {
     item.addEventListener('click', () => {
@@ -46,3 +47,13 @@ _li.forEach((item) => {
         }
     })
 });
+
+homeBtn.addEventListener('click', () => {
+    for (let i = 0; i < _backs.length; i++) {
+        _backs[i].classList.add('deactivateBack')
+        _backs[i].classList.remove('activeBack')
+    }
+    document.getElementById('_homeBack').classList.remove('deactivateBack')
+    document.getElementById('_homeBack').classList.add('activeBack')
+    _body.classList.add('homeBack')
+})
