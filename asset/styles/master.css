@@ -1,3 +1,15 @@
+/* ------------------------------------------------------------------------------------------------ */
+@keyframes puls {
+    0% {
+        transform: scale(0.6);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ------------------------------------------------------------------------------------------------ */
 body {
     width: 100%;
     height: 100vh;
@@ -23,8 +35,9 @@ main {
 header {
     width: 100%;
     height: 48px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #00000033;
     position: relative;
+    border-bottom: 1px solid #ffffff13;
 
     >h1 {
         font-family: 'Inter-SemiBold';
@@ -53,5 +66,208 @@ header {
             border-radius: 50%;
             margin-right: 8px;
         }
+    }
+
+}
+
+/* -------------------------------side bar--------------------------- */
+#sideBar {
+    height: calc(100% - 48px);
+    border-right: 1px solid #ffffff13;
+    background-color: #00000033;
+
+    #sideBar-mehrab {
+        width: 100%;
+        height: 24%;
+        border-bottom: 1px solid #ffffff13;
+        padding-left: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        >figure {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #282516;
+            border: 1px solid #ffffff13;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: .2s linear;
+            position: relative;
+            margin-bottom: 20px;
+
+            >img {
+                width: 35px;
+                transition: .2s linear;
+            }
+
+            &::after {
+                content: '';
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                position: absolute;
+                background-color: #2EF171;
+                right: 1px;
+                bottom: 4px;
+                animation: puls .7s linear alternate infinite;
+            }
+
+            &:hover {
+                background-color: #44412d;
+
+                >img {
+                    transform: rotate(-10deg) scale(1.1);
+
+                }
+            }
+        }
+
+        >h2 {
+            text-transform: capitalize;
+            font-family: 'Inter-Medium';
+            font-size: 14px;
+            color: white;
+            margin-bottom: 5px;
+        }
+
+        >h4 {
+            color: #AAA8A2;
+            font-size: 14px;
+            font-family: 'Inter-Medium';
+            text-transform: capitalize;
+        }
+    }
+
+    #sideBar-navBar {
+        width: 100%;
+        height: 62%;
+        border-bottom: 1px solid #ffffff13;
+
+        >ul {
+            width: 100%;
+            height: 100%;
+            padding: 20px 15px;
+
+            >li {
+                text-transform: capitalize;
+                color: white;
+                font-size: 14px;
+                font-family: 'Inter-Medium';
+                padding: 10px 15px;
+                border-radius: 8px;
+                cursor: pointer;
+                transition: .1s ease-in-out;
+                display: flex;
+                align-items: center;
+                transition: .2s ease-in-out;
+                position: relative;
+
+                >span {
+                    content: '6';
+                    height: 21px;
+                    width: 19px;
+                    border-radius: 6px;
+                    background-color: #343021;
+                    position: absolute;
+                    top: 50%;
+                    right: 0%;
+                    transform: translate(-50%, -50%);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 12px;
+                }
+
+                &::before {
+                    content: '';
+                    width: 4px;
+                    height: 4px;
+                    background-color: #2EF171;
+                    border-radius: 50%;
+                    display: flex;
+                    transform: scale(0);
+                    transition: .2s linear;
+
+                }
+
+                &:hover {
+                    background-color: #282516;
+
+                    &::before {
+                        margin-right: 10px;
+                        transform: scale(1);
+                    }
+                }
+
+                &:nth-of-type(1) {
+                    &::before {
+                        background-color: #FFC427;
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    &::before {
+                        background-color: #FF6320;
+                    }
+                }
+
+                &:nth-of-type(3) {
+                    &::before {
+                        background-color: #2EF171;
+                    }
+                }
+
+                &:nth-of-type(4) {
+                    &::before {
+                        background-color: #20D7FF;
+                    }
+                }
+            }
+        }
+    }
+
+    #sideBar-btn {
+        width: 100%;
+        height: 14%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >a {
+            width: 80%;
+            height: 40px;
+            padding: 12px 16px;
+            background-color: #ffffff1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            color: #AAA8A2;
+            font-family: 'Inter-Medium';
+            text-transform: capitalize;
+            transform-origin: center;
+            transition: .2s ease-in-out;
+
+            >img{
+                width: 20px;
+                margin-left: 10px;
+            }
+
+            &:hover{
+                width: 83%;;
+            }
+        }
+    }
+}
+
+/* -------------------------------------------classes----------------------------------------------------- */
+.navActive {
+    &::before {
+        margin-right: 10px;
+        transform: scale(1) !important;
     }
 }
