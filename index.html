@@ -18,15 +18,15 @@
 
 <body class="homeBack">
     <section id="backs">
-        <div id="_homeBack" class="activeBack"></div>
+        <div id="_homeBack" class="active"></div>
         <div id="_aboutBack"></div>
         <div id="_portfolioBack"></div>
         <div id="_servicesBack"></div>
         <div id="_contactBack"></div>
     </section>
-    <main>
+    <main class="row">
         <!-- -----------------------------------header------------------------------------ -->
-        <header>
+        <header class="col-12">
             <h1>mehrab pourzakaria</h1>
             <span>
                 <span></span>
@@ -38,23 +38,23 @@
         <section id="sideBar" class="col-3">
             <div id="sideBar-mehrab">
                 <figure id="home-btn">
-                    <img src="asset/img/mehrab.1.PNG" alt="">
+                    <img src="asset/img/mehrab.1.PNG" alt="mehrab pourzakaria">
                 </figure>
                 <h2>mehrab pourzakaria</h2>
                 <h4>front-End developer</h4>
             </div>
             <nav id="sideBar-navBar">
                 <ul>
-                    <li data-idColor="about">about</li>
-                    <li data-idColor="portfolio">
+                    <li data-id="about">about</li>
+                    <li data-id="portfolio">
                         portfolio
                         <span>6</span>
                     </li>
-                    <li data-idColor="services">
+                    <li data-id="services">
                         services
                         <span>4</span>
                     </li>
-                    <li data-idColor="contact">contact</li>
+                    <li data-id="contact">contact</li>
                 </ul>
             </nav>
             <div id="sideBar-btn">
@@ -63,6 +63,50 @@
                     <img src="asset/img/github-sign.png" alt="">
                 </a>
             </div>
+        </section>
+        <!-- -----------------------------------content------------------------------------ -->
+        <section id="content" class="col-9">
+            <!-- ------------------------home------------------------ -->
+            <section id="home" class="active">
+                <header>
+                        <figure>
+                            <img src="asset/img/mehrab2.png" alt="mehrab pourzakaria">
+                        </figure>
+                        <h2>
+                            👋 Hey! I'm Mehrab —
+                            <br> 
+                            a passionate Front-End Developer 
+                        </h2>
+                        <p>
+                            As a creative developer, I blend code and design to build unique, user-centric experiences. Let's turn your ideas into a dynamic and engaging digital reality!
+                        </p>
+                </header>
+                <section class="row">
+                    <div>
+                        <span></span>
+                        <p>about</p>
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </section>
+            </section>
+            <!-- ------------------------about------------------------ -->
+            <section id="about">
+                <h1>about</h1>
+            </section>
+            <!-- ------------------------portfolio------------------------ -->
+            <section id="portfolio">
+                <h1>portfolio</h1>
+            </section>
+            <!-- ------------------------services------------------------ -->
+            <section id="services">
+                <h1>services</h1>
+            </section>
+            <!-- ------------------------contact------------------------ -->
+            <section id="contact">
+                <h1>contact</h1>
+            </section>
         </section>
     </main>
 </body>

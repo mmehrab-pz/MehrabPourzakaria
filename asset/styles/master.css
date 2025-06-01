@@ -29,7 +29,7 @@ body {
         width: 100%;
         height: 100%;
         position: absolute;
-        transition: .3s ease-in-out;
+        transition: .3s ease;
         opacity: 0;
 
     }
@@ -68,6 +68,7 @@ main {
     border-radius: 18px;
     overflow: hidden;
     border: 1px solid #ffffff26;
+    display: flex;
 }
 
 /* -------------------------------header--------------------------- */
@@ -197,7 +198,7 @@ header {
                 color: white;
                 font-size: 14px;
                 font-family: 'Inter-Medium';
-                padding: 10px 15px;
+                padding: 8px 15px;
                 border-radius: 8px;
                 cursor: pointer;
                 transition: .1s ease-in-out;
@@ -305,6 +306,145 @@ header {
     }
 }
 
+/* -------------------------------conent--------------------------- */
+#content {
+    height: calc(100% - 48px);
+    position: relative;
+
+    >section {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s ease;
+        pointer-events: none;
+        inset: 0;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+
+    #home {
+        >header {
+            width: 100%;
+            border-bottom: 1px solid #ffffff13;
+            min-height: 350px;
+            background-color: #ff632008;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            >figure {
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #ffffff0d;
+                overflow: hidden;
+                padding-bottom: 10px;
+                border: 1px solid #ffffff13;
+                padding-left: 5px;
+
+                >img {
+                    width: 140px;
+                }
+            }
+
+            >h2 {
+                color: white;
+                font-size: 32px;
+                font-family: 'Inter-Medium';
+                text-align: center;
+                text-transform: capitalize;
+                margin-block: 15px;
+            }
+
+            >p {
+                font-size: 14px;
+                color: #ffffffa6;
+                width: 30%;
+                font-family: 'Inter-Regular';
+                text-align: center;
+            }
+        }
+
+        >section {
+            width: 100%;
+            border-bottom: 1px solid #ffffff13;
+            padding: 40px 50px;
+            display: flex;
+            justify-content: space-between;
+
+            >div {
+                border: 1px solid white;
+                width: 49%;
+                height: 155px;
+                margin-bottom: 2%;
+                border-radius: 16px;
+                position: relative;
+                overflow: hidden;
+
+                >span {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    opacity: 0.1;
+                    position: absolute;
+                    z-index: -1;
+                }
+
+                >p {
+                    padding: 8px 10px;
+                    border-radius: 1000px;
+                    border: 1px solid white;
+                    display: inline;
+                    font-size: 12px;
+                    font-family: 'Inter-Regular';
+                    text-transform: capitalize;
+                }
+
+                &:nth-of-type(1) {
+                    >span {
+                        background-color: rgb(255, 196, 39);
+                    }
+
+                    >p {
+                        color: #F3BA25;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -------------------------------------------classes----------------------------------------------------- */
 .homeBack {
     background: #FDCE50;
@@ -331,12 +471,15 @@ header {
     background: linear-gradient(115deg, rgba(32, 209, 248, 1) 25%, rgba(4, 164, 203, 1) 70%);
 }
 
-.activeBack {
+.active {
     opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
 }
 
-.deactivateBack {
+.deactivate {
     opacity: 0;
+    visibility: hidden;
 }
 
 .navActive {
