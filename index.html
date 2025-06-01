@@ -14,7 +14,15 @@
     <link rel="stylesheet" href="asset/styles/local.css">
     <title>Mehrab Pourzakaria</title>
 </head>
-<body>
+
+<body class="homeBack">
+    <section id="backs">
+        <div id="_homeBack" class="activeBack"></div>
+        <div id="_aboutBack"></div>
+        <div id="_portfolioBack"></div>
+        <div id="_servicesBack"></div>
+        <div id="_contactBack"></div>
+    </section>
     <main>
         <!-- -----------------------------------header------------------------------------ -->
         <header>
@@ -36,16 +44,16 @@
             </div>
             <nav id="sideBar-navBar">
                 <ul>
-                    <li class="navActive">about</li>
-                    <li>
+                    <li data-idColor="about">about</li>
+                    <li data-idColor="portfolio">
                         portfolio
                         <span>6</span>
                     </li>
-                    <li>
+                    <li data-idColor="services">
                         services
                         <span>4</span>
                     </li>
-                    <li>contact</li>
+                    <li data-idColor="contact">contact</li>
                 </ul>
             </nav>
             <div id="sideBar-btn">
@@ -57,4 +65,6 @@
         </section>
     </main>
 </body>
+<script src="asset/js/master.js"></script>
+
 </html>
