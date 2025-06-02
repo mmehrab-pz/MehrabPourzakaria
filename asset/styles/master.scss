@@ -10,10 +10,11 @@
 }
 
 @keyframes animation1 {
-    0%{
+    0% {
         transform: translateY(20px);
     }
-    100%{
+
+    100% {
         transform: translateY(-20px);
     }
 }
@@ -359,11 +360,13 @@ header {
                     animation: animation1 2s ease-in-out alternate infinite;
 
                 }
+
                 &:nth-of-type(2) {
                     right: 10%;
                     top: 40%;
                     animation: animation1 4s ease-in-out alternate infinite;
                 }
+
                 &:nth-of-type(3) {
                     top: 60%;
                     left: 10%;
@@ -635,6 +638,182 @@ header {
 
                     &::after {
                         background-color: #20d7ff;
+                    }
+                }
+            }
+        }
+
+        >footer {
+            width: 100%;
+            height: 50px;
+            padding-inline: 50px;
+            display: flex;
+            align-items: center;
+
+            >p {
+                font-size: 12px;
+                color: #ffffffa6;
+                font-family: 'Inter-Regular';
+            }
+        }
+    }
+
+    /* ---------------about---------------- */
+    #about {
+        >header {
+            width: 100%;
+            height: auto;
+            background-color: #ffc42708;
+            padding: 55px 48px 30px 48px;
+            border-bottom: 1px solid #ffffff13;
+
+
+            >div {
+
+
+                &:nth-of-type(1) {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: start;
+
+                    >span {
+                        padding: 8px 10px;
+                        border-radius: 1000px;
+                        display: inline;
+                        font-size: 12px;
+                        font-family: 'Inter-Regular';
+                        text-transform: capitalize;
+                        color: #F3BA25;
+                        border: 1px solid #ffc42733;
+                        background-color: #ffc4270d;
+                    }
+
+                    >h3 {
+                        color: white;
+                        font-size: 32px;
+                        font-family: 'Inter-Medium';
+                        text-transform: capitalize;
+                        margin-block: 15px;
+                    }
+
+                    >P {
+                        font-size: 14px;
+                        color: #ffffffa6;
+                        width: 70%;
+                        font-family: 'Inter-Regular';
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    position: relative;
+
+                    >figure {
+                        width: 130px;
+                        height: 130px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        border: 1px solid #ffffff1a;
+                        position: absolute;
+                        right: 0%;
+                        top: 50%;
+                        transform: translate(0%, -50%);
+                        pointer-events: none;
+
+
+                        >img {
+                            width: 75px;
+                        }
+
+                        &:nth-of-type(1) {
+                            background-color: #FFC427;
+                            right: 43%;
+                            z-index: 3;
+                        }
+
+                        &:nth-of-type(2) {
+                            background-color: #ffc52773;
+                            right: 21%;
+                            z-index: 2;
+                            backdrop-filter: blur(50px);
+                        }
+
+                        &:nth-of-type(3) {
+                            background-color: #ffc52727;
+                            right: 0%;
+                            z-index: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        #about-content {
+            width: 100%;
+
+            >div {
+                width: 100%;
+                border-bottom: 1px solid #ffffff13;
+                padding: 40px 48px 48px 48px;
+                display: flex;
+
+                >h4 {
+                    color: white;
+                    font-size: 24px;
+                    font-family: 'Inter-Medium';
+                    text-transform: capitalize;
+                }
+
+
+                &:nth-of-type(1) {
+
+                    >p {
+                        font-size: 14px;
+                        color: #ffffffa6;
+                        width: 50%;
+                        font-family: 'Inter-Regular';
+                    }
+                }
+
+                &:nth-of-type(2) {
+                    >div {
+                        flex-wrap: wrap;
+
+                        >span {
+                            padding: 8px 10px;
+                            border-radius: 1000px;
+                            display: inline-block;
+                            font-size: 12px;
+                            font-family: 'Inter-Regular';
+                            text-transform: capitalize;
+                            color: #ffc427;
+                            border: 1px solid #ffc42733;
+                            background-color: #ffc4270d;
+                            margin-bottom: 5px;
+                            margin-right: 2px;
+                        }
+                    }
+                }
+
+                &:nth-of-type(3){
+                    >*{
+                        
+                    }
+                    >div{
+                        display: flex;
+                        justify-content: space-between;
+                        >figure{
+                            width: 200px;
+                            border-radius: 10px;
+                            overflow: hidden;
+                            cursor: pointer;
+                            
+                            >img{
+
+                            }
+                        }
                     }
                 }
             }
