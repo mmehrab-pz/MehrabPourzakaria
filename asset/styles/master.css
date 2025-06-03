@@ -549,11 +549,20 @@ main > header > span > span {
   padding-inline: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-#content #home > footer > p {
+#content #home > footer > p,
+#content #home > footer a {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6509803922);
   font-family: "Inter-Regular";
+  text-transform: capitalize;
+}
+#content #home > footer > a {
+  transition: 0.2s ease-in-out;
+}
+#content #home > footer > a:hover {
+  color: white;
 }
 #content #about > header {
   width: 100%;
@@ -684,11 +693,20 @@ main > header > span > span {
   padding-inline: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-#content #about > footer > p {
+#content #about > footer > p,
+#content #about > footer a {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6509803922);
   font-family: "Inter-Regular";
+  text-transform: capitalize;
+}
+#content #about > footer > a {
+  transition: 0.2s ease-in-out;
+}
+#content #about > footer > a:hover {
+  color: white;
 }
 #content #portfolio > header {
   width: 100%;
@@ -826,11 +844,20 @@ main > header > span > span {
   padding-inline: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-#content #portfolio > footer > p {
+#content #portfolio > footer > p,
+#content #portfolio > footer a {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6509803922);
   font-family: "Inter-Regular";
+  text-transform: capitalize;
+}
+#content #portfolio > footer > a {
+  transition: 0.2s ease-in-out;
+}
+#content #portfolio > footer > a:hover {
+  color: white;
 }
 #content #services > header {
   width: 100%;
@@ -1116,11 +1143,20 @@ main > header > span > span {
   padding-inline: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-#content #services > footer > p {
+#content #services > footer > p,
+#content #services > footer a {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6509803922);
   font-family: "Inter-Regular";
+  text-transform: capitalize;
+}
+#content #services > footer > a {
+  transition: 0.2s ease-in-out;
+}
+#content #services > footer > a:hover {
+  color: white;
 }
 #content #contact > header {
   width: 100%;
@@ -1446,11 +1482,20 @@ main > header > span > span {
   padding-inline: 50px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
-#content #contact > footer > p {
+#content #contact > footer > p,
+#content #contact > footer a {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6509803922);
   font-family: "Inter-Regular";
+  text-transform: capitalize;
+}
+#content #contact > footer > a {
+  transition: 0.2s ease-in-out;
+}
+#content #contact > footer > a:hover {
+  color: white;
 }
 
 /* -------------------------------------------classes----------------------------------------------------- */
