@@ -3,7 +3,6 @@ const _backs = document.querySelectorAll('#backs>div')
 const contents = document.querySelectorAll('#content>section')
 const homeCards = document.querySelectorAll('#home-cards>div')
 
-
 let _body = document.body
 let homeBtn = document.getElementById('home-btn')
 let home = document.getElementById('home')
@@ -11,9 +10,6 @@ let about = document.getElementById('about')
 let portfolio = document.getElementById('portfolio')
 let services = document.getElementById('services')
 let contact = document.getElementById('contact')
-
-
-
 
 function changeBack(item) {
     let id = item.getAttribute('data-id')
@@ -60,7 +56,6 @@ function changeBack(item) {
     }
 }
 
-
 _li.forEach((item) => {
     item.addEventListener('click', () => {
         for (let i = 0; i < _li.length; i++) {
@@ -71,13 +66,19 @@ _li.forEach((item) => {
     })
 });
 
-
 homeCards.forEach(item => {
     item.addEventListener('click', () => {
+        let _id = item.getAttribute('data-id')
+        _li.forEach(el => {
+            if (el.getAttribute('data-id') === _id) {
+                el.classList.add('navActive')
+            } else {
+                el.classList.remove('navActive')
+            }
+        })
         changeBack(item)
     })
 })
-
 
 homeBtn.addEventListener('click', () => {
     _li.forEach(el => el.classList.remove('navActive'))
