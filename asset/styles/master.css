@@ -347,6 +347,7 @@ main > header > span > span {
   width: 40%;
   font-family: "Inter-Regular";
   text-align: center;
+  line-height: 16px;
 }
 #content #home > section {
   width: 100%;
@@ -586,6 +587,7 @@ main > header > span > span {
   color: rgba(255, 255, 255, 0.6509803922);
   width: 70%;
   font-family: "Inter-Regular";
+  line-height: 16px;
 }
 #content #about > header > div:nth-of-type(2) {
   position: relative;
@@ -644,6 +646,7 @@ main > header > span > span {
   color: rgba(255, 255, 255, 0.6509803922);
   width: 50%;
   font-family: "Inter-Regular";
+  line-height: 16px;
 }
 #content #about #about-content > div:nth-of-type(2) > div {
   flex-wrap: wrap;
@@ -686,7 +689,7 @@ main > header > span > span {
 #content #portfolio > header {
   width: 100%;
   height: auto;
-  background-color: rgba(255, 196, 39, 0.031372549);
+  background-color: rgba(255, 99, 32, 0.031372549);
   padding: 55px 48px 30px 48px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.0745098039);
 }
@@ -720,6 +723,7 @@ main > header > span > span {
   color: rgba(255, 255, 255, 0.6509803922);
   width: 30%;
   font-family: "Inter-Regular";
+  line-height: 16px;
 }
 #content #portfolio #portfolio-content {
   width: 100%;
@@ -827,7 +831,7 @@ main > header > span > span {
 #content #services > header {
   width: 100%;
   height: auto;
-  background-color: rgba(255, 196, 39, 0.031372549);
+  background-color: rgba(46, 241, 113, 0.031372549);
   padding: 55px 48px 30px 48px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.0745098039);
 }
@@ -860,6 +864,7 @@ main > header > span > span {
   color: rgba(255, 255, 255, 0.6509803922);
   width: 70%;
   font-family: "Inter-Regular";
+  line-height: 16px;
 }
 #content #services > header > div:nth-of-type(2) {
   position: relative;
