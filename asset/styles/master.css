@@ -272,6 +272,8 @@ main > header > span > span {
   /* ---------------home---------------- */
   /* ---------------about---------------- */
   /* ---------------portfolio---------------- */
+  /* ---------------services---------------- */
+  /* ---------------contact---------------- */
 }
 #content > section {
   width: 100%;
@@ -822,22 +824,20 @@ main > header > span > span {
   color: rgba(255, 255, 255, 0.6509803922);
   font-family: "Inter-Regular";
 }
-
-/* ---------------services---------------- */
-#services > header {
+#content #services > header {
   width: 100%;
   height: auto;
   background-color: rgba(255, 196, 39, 0.031372549);
   padding: 55px 48px 30px 48px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.0745098039);
 }
-#services > header > div:nth-of-type(1) {
+#content #services > header > div:nth-of-type(1) {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
 }
-#services > header > div:nth-of-type(1) > span {
+#content #services > header > div:nth-of-type(1) > span {
   padding: 6px 10px;
   border-radius: 1000px;
   display: inline;
@@ -848,23 +848,23 @@ main > header > span > span {
   border: 1px solid rgba(46, 241, 113, 0.2);
   background-color: rgba(46, 241, 113, 0.0509803922);
 }
-#services > header > div:nth-of-type(1) > h3 {
+#content #services > header > div:nth-of-type(1) > h3 {
   color: white;
   font-size: 32px;
   font-family: "Inter-Medium";
   text-transform: capitalize;
   margin-block: 15px;
 }
-#services > header > div:nth-of-type(1) > P {
+#content #services > header > div:nth-of-type(1) > P {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6509803922);
   width: 70%;
   font-family: "Inter-Regular";
 }
-#services > header > div:nth-of-type(2) {
+#content #services > header > div:nth-of-type(2) {
   position: relative;
 }
-#services > header > div:nth-of-type(2) > figure {
+#content #services > header > div:nth-of-type(2) > figure {
   width: 130px;
   height: 130px;
   display: flex;
@@ -880,28 +880,28 @@ main > header > span > span {
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
 }
-#services > header > div:nth-of-type(2) > figure > img {
+#content #services > header > div:nth-of-type(2) > figure > img {
   width: 75px;
 }
-#services > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+#content #services > header > div:nth-of-type(2) > figure:nth-of-type(1) {
   background-color: #2ef171;
   right: 43%;
   z-index: 3;
 }
-#services > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+#content #services > header > div:nth-of-type(2) > figure:nth-of-type(2) {
   background-color: rgba(46, 241, 113, 0.4509803922);
   right: 21%;
   z-index: 2;
 }
-#services > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+#content #services > header > div:nth-of-type(2) > figure:nth-of-type(3) {
   background-color: #0F3C19;
   right: 0%;
   z-index: 1;
 }
-#services #services-content {
+#content #services #services-content {
   width: 100%;
 }
-#services #services-content > section:nth-of-type(1) {
+#content #services #services-content > section:nth-of-type(1) {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -909,7 +909,7 @@ main > header > span > span {
   padding: 40px 48px 28px 48px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.0745098039);
 }
-#services #services-content > section:nth-of-type(1) > div {
+#content #services #services-content > section:nth-of-type(1) > div {
   width: 485px;
   height: 380px;
   margin-bottom: 15px;
@@ -919,7 +919,7 @@ main > header > span > span {
   position: relative;
   overflow: hidden;
 }
-#services #services-content > section:nth-of-type(1) > div > span {
+#content #services #services-content > section:nth-of-type(1) > div > span {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -927,7 +927,7 @@ main > header > span > span {
   left: 0;
   z-index: 1;
 }
-#services #services-content > section:nth-of-type(1) > div > span::before {
+#content #services #services-content > section:nth-of-type(1) > div > span::before {
   content: "";
   width: 240px;
   position: absolute;
@@ -940,7 +940,7 @@ main > header > span > span {
   border-radius: 50%;
   opacity: 0.2;
 }
-#services #services-content > section:nth-of-type(1) > div > span::after {
+#content #services #services-content > section:nth-of-type(1) > div > span::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -949,7 +949,7 @@ main > header > span > span {
   width: 100%;
   background-color: #2ef171;
 }
-#services #services-content > section:nth-of-type(1) > div > div {
+#content #services #services-content > section:nth-of-type(1) > div > div {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -961,7 +961,7 @@ main > header > span > span {
   flex-direction: column;
   justify-content: space-between;
 }
-#services #services-content > section:nth-of-type(1) > div > div > figure {
+#content #services #services-content > section:nth-of-type(1) > div > div > figure {
   width: 68px;
   height: 68px;
   border-radius: 12px;
@@ -971,31 +971,31 @@ main > header > span > span {
   background-color: rgba(46, 241, 113, 0.0509803922);
   border: 1px solid rgba(46, 241, 113, 0.0509803922);
 }
-#services #services-content > section:nth-of-type(1) > div > div > figure > img {
+#content #services #services-content > section:nth-of-type(1) > div > div > figure > img {
   width: 30px;
 }
-#services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(1) {
+#content #services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(1) {
   margin-bottom: 55px;
 }
-#services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(1) > h2 {
+#content #services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(1) > h2 {
   color: #2ef171;
   text-transform: capitalize;
   font-family: "Inter-Medium";
   font-size: 24px;
   margin-bottom: 10px;
 }
-#services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(1) > p {
+#content #services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(1) > p {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6509803922);
   width: 80%;
   font-family: "Inter-Regular";
   line-height: 16px;
 }
-#services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(2) {
+#content #services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(2) {
   flex-wrap: wrap;
   width: 85%;
 }
-#services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(2) > span {
+#content #services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(2) > span {
   padding: 6px 10px;
   border-radius: 1000px;
   display: inline-block;
@@ -1008,37 +1008,37 @@ main > header > span > span {
   margin-bottom: 5px;
   margin-right: 2px;
 }
-#services #services-content > section:nth-of-type(2) {
+#content #services #services-content > section:nth-of-type(2) {
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.0745098039);
   padding: 40px 48px 48px 48px;
 }
-#services #services-content > section:nth-of-type(2) > div {
+#content #services #services-content > section:nth-of-type(2) > div {
   width: 100%;
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(1) {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
   margin-bottom: 35px;
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > h3 {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > h3 {
   color: white;
   font-size: 24px;
   font-family: "Inter-Medium";
   text-transform: capitalize;
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > p {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > p {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6509803922);
   width: 45%;
   font-family: "Inter-Regular";
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(2) {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a {
   height: 152px;
   width: 235px;
   border-radius: 12px;
@@ -1053,7 +1053,7 @@ main > header > span > span {
   justify-content: center;
   align-items: center;
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a::before {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a::before {
   content: "";
   position: absolute;
   height: 48px;
@@ -1064,13 +1064,13 @@ main > header > span > span {
   transition: 0.2s ease-in-out;
   opacity: 0;
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > figure {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > figure {
   transition: 0.3s ease-in-out;
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > figure > img {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > figure > img {
   width: 56px;
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > span {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > span {
   position: absolute;
   top: 80%;
   left: 50%;
@@ -1083,32 +1083,362 @@ main > header > span > span {
   opacity: 0;
   filter: blur(10px);
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a:hover {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a:hover {
   background-color: rgba(46, 241, 113, 0.1019607843);
   box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a:hover::before {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a:hover::before {
   background-color: rgb(46, 241, 113);
   filter: blur(40px);
   border-radius: 50%;
   opacity: 0.35;
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a:hover > figure {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a:hover > figure {
   transform: translateY(-25%);
 }
-#services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a:hover > span {
+#content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a:hover > span {
   top: 70%;
   opacity: 1;
   filter: blur(0px);
 }
-#services > footer {
+#content #services > footer {
   width: 100%;
   height: 50px;
   padding-inline: 50px;
   display: flex;
   align-items: center;
 }
-#services > footer > p {
+#content #services > footer > p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6509803922);
+  font-family: "Inter-Regular";
+}
+#content #contact > header {
+  width: 100%;
+  height: auto;
+  background-color: rgba(32, 215, 255, 0.031372549);
+  padding: 55px 48px 30px 48px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.0745098039);
+}
+#content #contact > header > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+#content #contact > header > div:nth-of-type(1) > span {
+  padding: 6px 10px;
+  border-radius: 1000px;
+  display: inline;
+  font-size: 12px;
+  font-family: "Inter-Medium";
+  text-transform: capitalize;
+  color: #20d7ff;
+  border: 1px solid rgba(32, 215, 255, 0.2);
+  background-color: rgba(32, 215, 255, 0.0509803922);
+}
+#content #contact > header > div:nth-of-type(1) > h3 {
+  color: white;
+  font-size: 32px;
+  font-family: "Inter-Medium";
+  text-transform: capitalize;
+  margin-block: 15px;
+}
+#content #contact > header > div:nth-of-type(1) > P {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6509803922);
+  width: 70%;
+  font-family: "Inter-Regular";
+  line-height: 16px;
+}
+#content #contact > header > div:nth-of-type(2) {
+  position: relative;
+}
+#content #contact > header > div:nth-of-type(2) > figure {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1019607843);
+  position: absolute;
+  right: 0%;
+  top: 50%;
+  transform: translate(0%, -50%);
+  pointer-events: none;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+}
+#content #contact > header > div:nth-of-type(2) > figure > img {
+  width: 75px;
+}
+#content #contact > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+  background-color: #20d7ff;
+  right: 43%;
+  z-index: 3;
+}
+#content #contact > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+  background-color: rgba(32, 215, 255, 0.4509803922);
+  right: 21%;
+  z-index: 2;
+}
+#content #contact > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+  background-color: rgba(32, 215, 255, 0.0980392157);
+  right: 0%;
+  z-index: 1;
+}
+#content #contact #contact-content {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.0745098039);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 48px 48px 48px;
+}
+#content #contact #contact-content > div {
+  width: 49%;
+  height: 500px;
+  border-radius: 12px;
+}
+#content #contact #contact-content > div:nth-of-type(1) {
+  padding: 32px 24px 40px 24px;
+}
+#content #contact #contact-content > div:nth-of-type(1) > h4 {
+  color: white;
+  text-transform: capitalize;
+  font-family: "Inter-Medium";
+  font-size: 24px;
+}
+#content #contact #contact-content > div:nth-of-type(1) > P {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6509803922);
+  width: 80%;
+  font-family: "Inter-Regular";
+  line-height: 16px;
+  margin-top: 10px;
+}
+#content #contact #contact-content > div:nth-of-type(1) > form {
+  width: 100%;
+  height: 200px;
+  margin-top: 30px;
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > label {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgba(32, 215, 255, 0.0509803922);
+  border: 1px solid rgba(32, 215, 255, 0.0509803922);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > label:has(input:focus) {
+  background-color: rgba(32, 214, 255, 0.1176470588);
+  border: 1px solid rgba(32, 214, 255, 0.2745098039);
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > label > input {
+  border: none;
+  outline: none;
+  padding-inline: 20px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: "Inter-Regular";
+  border-radius: 10px;
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > label > input::-moz-placeholder {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Inter-Regular";
+  color: rgba(255, 255, 255, 0.3019607843);
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > label > input::placeholder {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Inter-Regular";
+  color: rgba(255, 255, 255, 0.3019607843);
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > label:hover {
+  background-color: rgba(32, 214, 255, 0.1176470588);
+  border: 1px solid rgba(32, 214, 255, 0.2745098039);
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  border-radius: 10px;
+  background-color: rgba(32, 215, 255, 0.0509803922);
+  border: 1px solid rgba(32, 215, 255, 0.0509803922);
+  color: white;
+  font-family: "Inter-Regular";
+  outline: none;
+  padding: 10px 20px;
+  transition: 0.3s ease;
+  scrollbar-width: none;
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > textarea::-moz-placeholder {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Inter-Regular";
+  color: rgba(255, 255, 255, 0.3019607843);
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > textarea::placeholder {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-family: "Inter-Regular";
+  color: rgba(255, 255, 255, 0.3019607843);
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > textarea:hover {
+  background-color: rgba(32, 214, 255, 0.1176470588);
+  border: 1px solid rgba(32, 214, 255, 0.2745098039);
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > textarea:focus {
+  background-color: rgba(32, 214, 255, 0.1176470588);
+  border: 1px solid rgba(32, 214, 255, 0.2745098039);
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > button {
+  width: 100%;
+  height: 47px;
+  border-radius: 10px;
+  background-color: rgba(32, 215, 255, 0.2);
+  border: 1px solid rgba(32, 215, 255, 0.1019607843);
+  color: #20d7ff;
+  font-family: "Inter-Regular";
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+#content #contact #contact-content > div:nth-of-type(1) > form > button:hover {
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+  background-color: rgba(32, 215, 255, 0.3490196078);
+}
+#content #contact #contact-content > div:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div {
+  border-radius: 12px;
+  padding: 25px 24px;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div > h4 {
+  color: white;
+  text-transform: capitalize;
+  font-family: "Inter-Medium";
+  font-size: 20px;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) {
+  height: 265px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div > a {
+  height: 75px;
+  width: 210px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgba(32, 215, 255, 0.0509803922);
+  border: 1px solid rgba(32, 215, 255, 0.0509803922);
+  position: relative;
+  transition: 0.4s ease;
+  overflow: hidden;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div > a > figure > img {
+  width: 28px;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div > a::before {
+  content: "";
+  height: 48px;
+  width: 120px;
+  position: absolute;
+  overflow: hidden;
+  top: -24px;
+  left: calc(50% - 60px);
+  background-color: #20d7ff;
+  filter: blur(40px);
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.4s ease;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div > a:hover {
+  background-color: rgba(32, 215, 255, 0.1);
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div > a:hover::before {
+  opacity: 0.35;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(2) {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(2) > figure {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -25px;
+  right: -20px;
+  background-color: rgba(32, 215, 255, 0.0509803922);
+  border: 1px solid rgba(32, 215, 255, 0.0509803922);
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(2) > figure > img {
+  width: 60px;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(2) > P {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6509803922);
+  width: 55%;
+  font-family: "Inter-Regular";
+  line-height: 16px;
+  margin-bottom: 30px;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(2) > a {
+  height: 40px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: white;
+  font-family: "Inter-Regular";
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.65);
+  text-transform: capitalize;
+  font-size: 14px;
+  transition: 0.4s ease;
+}
+#content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(2) > a:hover {
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+#content #contact > footer {
+  width: 100%;
+  height: 50px;
+  padding-inline: 50px;
+  display: flex;
+  align-items: center;
+}
+#content #contact > footer > p {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.6509803922);
   font-family: "Inter-Regular";
@@ -1154,4 +1484,24 @@ main > header > span > span {
 .navActive::before {
   margin-right: 10px;
   transform: scale(1) !important;
+}
+
+.contact-background {
+  background-color: rgba(32, 215, 255, 0.0509803922);
+  border: 1px solid rgba(32, 215, 255, 0.0509803922);
+  position: relative;
+  overflow: hidden;
+}
+.contact-background::before {
+  content: "";
+  width: 240px;
+  height: 64px;
+  position: absolute;
+  top: -32px;
+  left: calc(50% - 120px);
+  overflow: hidden;
+  background-color: #20d7ff;
+  filter: blur(50px);
+  border-radius: 50%;
+  opacity: 0.2;
 }/*# sourceMappingURL=master.css.map */

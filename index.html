@@ -18,10 +18,10 @@
 
 <body class="homeBack">
     <section id="backs">
-        <div id="_homeBack"></div>
+        <div id="_homeBack" class="active"></div>
         <div id="_aboutBack"></div>
         <div id="_portfolioBack"></div>
-        <div id="_servicesBack" class="active"></div>
+        <div id="_servicesBack"></div>
         <div id="_contactBack"></div>
     </section>
     <main class="row">
@@ -67,7 +67,7 @@
         <!-- -----------------------------------content------------------------------------ -->
         <section id="content" class="col-9">
             <!-- ------------------------home------------------------ -->
-            <section id="home" class="">
+            <section id="home" class="active">
                 <header>
                     <img src="asset/img/ball.webp" alt="ball">
                     <img src="asset/img/laptop.webp" alt="laptop">
@@ -480,7 +480,7 @@
                 </footer>
             </section>
             <!-- ------------------------services------------------------ -->
-            <section id="services" class="active">
+            <section id="services">
                 <header class="row">
                     <div class="col-6">
                         <span>services</span>
@@ -717,7 +717,96 @@
             </section>
             <!-- ------------------------contact------------------------ -->
             <section id="contact">
-                <h1>contact</h1>
+                <header class="row">
+                    <div class="col-6">
+                        <span>cintact</span>
+                        <h3>
+                            Let's Connect
+                            <br>
+                            and Collaborate
+                        </h3>
+                        <p>
+                            Reach out to discuss your project or ideas. I’m here to provide support and turn your vision
+                            into reality.
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <figure>
+                            <img src="asset/img/pen.webp" alt="pen">
+                        </figure>
+                        <figure>
+                            <img src="asset/img/book.webp" alt="book">
+                        </figure>
+                        <figure>
+                            <img src="asset/img/mailbox.webp" alt="mailbox">
+                        </figure>
+                    </div>
+                </header>
+                <section id="contact-content">
+                    <!-- ------get in touch--------- -->
+                    <div class="contact-background">
+                        <h4>📤 Get In Touch</h4>
+                        <p>
+                            Have a question or want to start a project? Contact me, and let’s make your ideas come to
+                            life!
+                        </p>
+                        <form action="#">
+                            <label for="name" tabindex="0">
+                                <input type="text" id="name" placeholder="your name" autocomplete="off">
+                            </label>
+                            <label for="email" tabindex="0">
+                                <input type="email" id="email" placeholder="email" autocomplete="off">
+                            </label>
+                            <textarea name="text" id="text" placeholder="how can i help you?" ></textarea>
+                            <button>Send a Message</button>
+                        </form>
+                    </div>
+                    <div class="row">
+                        <!-- ------follow me--------- -->
+                        <div class="contact-background col-12">
+                            <h4>🔹 Follow Me</h4>
+                            <div>
+                                <a href="https://www.linkedin.com/in/mehrab-pourzakaria-1b2492237/" target="_blank">
+                                    <figure>
+                                        <img src="asset/img/svg/linkedin.svg" alt="">
+                                    </figure>
+                                </a>
+                                <a href="https://github.com/mmehrab-pz" target="_blank">
+                                    <figure>
+                                        <img src="asset/img/svg/github2.svg" alt="">
+                                    </figure>
+                                </a>
+                                <a href="https://www.instagram.com/mehrab.poorzakaria_web/" target="_blank">
+                                    <figure>
+                                        <img src="asset/img/svg/instagram.svg" alt="">
+                                    </figure>
+                                </a>
+                                <a href="https://t.me/mehrabPourzakaria" target="_blank">
+                                    <figure>
+                                        <img src="asset/img/svg/telegram.svg" alt="">
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- ------book a call--------- -->
+                        <div class="contact-background col-12">
+                            <figure>
+                                <img src="asset/img/svg/phone.svg" alt="">
+                            </figure>
+                            <h4>🦋 Book a Call</h4>
+                            <p>
+                                Have a question or want to start a project? Contact me, and let’s make your ideas come
+                                to life!
+                            </p>
+                            <a href="#">book a call</a>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <p>
+                        © 2025 Mehrab Pourzakaria. All rights reserved.
+                    </p>
+                </footer>
             </section>
         </section>
     </main>
