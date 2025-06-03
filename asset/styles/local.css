@@ -2,10 +2,12 @@
   /* -------------------------------main--------------------------- */
   main {
     width: 95%;
+    height: 95%;
   }
   /* -------------------------------content--------------------------- */
   #content {
     /* ---------------home---------------- */
+    /* ---------------about---------------- */
   }
   #content #home > header {
     min-height: 300px;
@@ -29,6 +31,60 @@
   }
   #content #home > footer {
     padding-inline: 20px;
+  }
+  #content #about > header {
+    padding: 24px 24px 60px 24px;
+  }
+  #content #about > header > div:nth-of-type(1) > h3 {
+    font-size: 24px;
+  }
+  #content #about > header > div:nth-of-type(1) > P {
+    width: 90%;
+  }
+  #content #about > header > div:nth-of-type(2) {
+    margin-top: 80px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure {
+    width: 80px;
+    height: 80px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure > img {
+    width: 45px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+    left: 130px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+    left: 65px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+    left: 0%;
+  }
+  #content #about #about-content > div {
+    padding: 32px 25px 40px 25px;
+    display: flex;
+  }
+  #content #about #about-content > div > h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #content #about #about-content > div:nth-of-type(1) > p {
+    width: 90%;
+  }
+  #content #about #about-content > div:nth-of-type(3) > div {
+    display: flex;
+    justify-content: start;
+  }
+  #content #about #about-content > div:nth-of-type(3) > div > figure {
+    width: 160px;
+    margin-right: 20px;
+  }
+  #content #about > footer {
+    padding-inline: 25px;
+  }
+  #content #about > footer > p,
+  #content #about > footer a {
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 576px) {
@@ -39,6 +95,7 @@
   /* -------------------------------content--------------------------- */
   #content {
     /* ---------------home---------------- */
+    /* ---------------about---------------- */
   }
   #content #home > header {
     min-height: 300px;
@@ -62,6 +119,148 @@
   }
   #content #home > footer {
     padding-inline: 20px;
+  }
+  #content #about > header {
+    padding: 24px 24px 60px 24px;
+  }
+  #content #about > header > div:nth-of-type(1) > h3 {
+    font-size: 24px;
+  }
+  #content #about > header > div:nth-of-type(1) > P {
+    width: 90%;
+  }
+  #content #about > header > div:nth-of-type(2) {
+    margin-top: 80px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure {
+    width: 80px;
+    height: 80px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure > img {
+    width: 45px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+    left: 130px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+    left: 65px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+    left: 0%;
+  }
+  #content #about #about-content > div {
+    padding: 32px 25px 40px 25px;
+    display: flex;
+  }
+  #content #about #about-content > div > h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #content #about #about-content > div:nth-of-type(1) > p {
+    width: 90%;
+  }
+  #content #about #about-content > div:nth-of-type(3) > div {
+    display: flex;
+    justify-content: start;
+  }
+  #content #about #about-content > div:nth-of-type(3) > div > figure {
+    width: 160px;
+    margin-right: 20px;
+  }
+  #content #about > footer {
+    padding-inline: 25px;
+  }
+  #content #about > footer > p,
+  #content #about > footer a {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* -------------------------------main--------------------------- */
+  main {
+    width: 95%;
+  }
+  /* -------------------------------content--------------------------- */
+  #content {
+    /* ---------------home---------------- */
+    /* ---------------about---------------- */
+  }
+  #content #home > header {
+    min-height: 300px;
+  }
+  #content #home > header > figure {
+    width: 85px;
+    height: 85px;
+  }
+  #content #home > header > figure > img {
+    width: 45px;
+  }
+  #content #home > header > h2 {
+    font-size: 26px;
+  }
+  #content #home > header > p {
+    color: rgba(255, 255, 255, 0.6509803922);
+    width: 90%;
+  }
+  #content #home > section {
+    padding: 40px 20px;
+  }
+  #content #home > footer {
+    padding-inline: 20px;
+  }
+  #content #about > header {
+    padding: 24px 24px 60px 24px;
+  }
+  #content #about > header > div:nth-of-type(1) > h3 {
+    font-size: 24px;
+  }
+  #content #about > header > div:nth-of-type(1) > P {
+    width: 60%;
+  }
+  #content #about > header > div:nth-of-type(2) {
+    margin-top: 80px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure {
+    width: 80px;
+    height: 80px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure > img {
+    width: 45px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+    left: 130px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+    left: 65px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+    left: 0%;
+  }
+  #content #about #about-content > div {
+    padding: 32px 25px 40px 25px;
+    display: flex;
+  }
+  #content #about #about-content > div > h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  #content #about #about-content > div:nth-of-type(1) > p {
+    width: 70%;
+  }
+  #content #about #about-content > div:nth-of-type(3) > div {
+    display: flex;
+    justify-content: start;
+  }
+  #content #about #about-content > div:nth-of-type(3) > div > figure {
+    width: 160px;
+    margin-right: 20px;
+  }
+  #content #about > footer {
+    padding-inline: 25px;
+  }
+  #content #about > footer > p,
+  #content #about > footer a {
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -105,6 +304,7 @@
   /* -------------------------------content--------------------------- */
   #content {
     /* ---------------home---------------- */
+    /* ---------------about---------------- */
   }
   #content #home > header {
     min-height: 350px;
@@ -132,6 +332,63 @@
   #content #home > footer {
     padding-inline: 50px;
   }
+  #content #about > header {
+    padding: 55px 48px 30px 48px;
+  }
+  #content #about > header > div:nth-of-type(1) > h3 {
+    font-size: 32px;
+  }
+  #content #about > header > div:nth-of-type(1) > P {
+    width: 70%;
+  }
+  #content #about > header > div:nth-of-type(2) {
+    margin-top: 0px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure {
+    width: 130px;
+    height: 130px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure > img {
+    width: 75px;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+    left: auto;
+    right: 43%;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+    left: auto;
+    right: 21%;
+  }
+  #content #about > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+    left: auto;
+    right: 0%;
+  }
+  #content #about #about-content > div {
+    padding: 40px 48px 48px 48px;
+    display: flex;
+  }
+  #content #about #about-content > div > h4 {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+  #content #about #about-content > div:nth-of-type(1) > p {
+    width: 50%;
+  }
+  #content #about #about-content > div:nth-of-type(3) > div {
+    display: flex;
+    justify-content: space-between;
+  }
+  #content #about #about-content > div:nth-of-type(3) > div > figure {
+    width: 190px;
+    margin-right: 0px;
+  }
+  #content #about > footer {
+    padding-inline: 50px;
+  }
+  #content #about > footer > p,
+  #content #about > footer a {
+    font-size: 14px;
+  }
 }
 @media screen and (min-width: 1400px) {
   /* -------------------------------main--------------------------- */
@@ -141,6 +398,7 @@
   /* -------------------------------content--------------------------- */
   #content {
     /* ---------------home---------------- */
+    /* ---------------about---------------- */
   }
   #content #home > header {
     min-height: 350px;
@@ -167,6 +425,9 @@
   }
   #content #home > footer {
     padding-inline: 50px;
+  }
+  #content #about #about-content > div:nth-of-type(3) > div > figure {
+    width: 200px;
   }
 }
 @media screen and (min-width: 1600px) {
