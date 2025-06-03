@@ -23,6 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 #backs {
@@ -62,7 +63,7 @@ body {
 /* -------------------------------main--------------------------- */
 main {
   width: 75%;
-  height: 815px;
+  height: 90%;
   background-color: rgba(0, 0, 0, 0.8509803922);
   border-radius: 18px;
   overflow: hidden;
@@ -361,7 +362,6 @@ main > header > span > span {
   justify-content: space-between;
 }
 #content #home > section > div {
-  width: 49%;
   height: 155px;
   border-radius: 12px;
   position: relative;
@@ -369,6 +369,7 @@ main > header > span > span {
   padding: 24px;
   cursor: pointer;
   transition: 0.4s ease-in-out;
+  margin-bottom: 2%;
 }
 #content #home > section > div::before {
   content: "";
@@ -427,7 +428,6 @@ main > header > span > span {
 }
 #content #home > section > div:nth-of-type(1) {
   border: 1px solid rgba(255, 197, 39, 0.192);
-  margin-bottom: 2%;
 }
 #content #home > section > div:nth-of-type(1)::before {
   background-color: rgb(255, 196, 39);
@@ -457,7 +457,6 @@ main > header > span > span {
 }
 #content #home > section > div:nth-of-type(2) {
   border: 1px solid rgba(255, 99, 32, 0.1921568627);
-  margin-bottom: 2%;
 }
 #content #home > section > div:nth-of-type(2)::before {
   background-color: #ff6320;

@@ -1,1 +1,207 @@
-/*# sourceMappingURL=local.css.map */
+@media screen and (max-width: 576px) {
+  /* -------------------------------main--------------------------- */
+  main {
+    width: 95%;
+  }
+  /* -------------------------------content--------------------------- */
+  #content {
+    /* ---------------home---------------- */
+  }
+  #content #home > header {
+    min-height: 300px;
+  }
+  #content #home > header > figure {
+    width: 85px;
+    height: 85px;
+  }
+  #content #home > header > figure > img {
+    width: 45px;
+  }
+  #content #home > header > h2 {
+    font-size: 26px;
+  }
+  #content #home > header > p {
+    color: rgba(255, 255, 255, 0.6509803922);
+    width: 90%;
+  }
+  #content #home > section {
+    padding: 40px 20px;
+  }
+  #content #home > footer {
+    padding-inline: 20px;
+  }
+}
+@media screen and (min-width: 576px) {
+  /* -------------------------------main--------------------------- */
+  main {
+    width: 95%;
+  }
+  /* -------------------------------content--------------------------- */
+  #content {
+    /* ---------------home---------------- */
+  }
+  #content #home > header {
+    min-height: 300px;
+  }
+  #content #home > header > figure {
+    width: 85px;
+    height: 85px;
+  }
+  #content #home > header > figure > img {
+    width: 45px;
+  }
+  #content #home > header > h2 {
+    font-size: 26px;
+  }
+  #content #home > header > p {
+    color: rgba(255, 255, 255, 0.6509803922);
+    width: 90%;
+  }
+  #content #home > section {
+    padding: 40px 20px;
+  }
+  #content #home > footer {
+    padding-inline: 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  /* -------------------------------main--------------------------- */
+  main {
+    width: 95%;
+  }
+  /* -------------------------------content--------------------------- */
+  #content {
+    /* ---------------home---------------- */
+  }
+  #content #home > header {
+    min-height: 300px;
+  }
+  #content #home > header > figure {
+    width: 100px;
+    height: 100px;
+  }
+  #content #home > header > figure > img {
+    width: 55px;
+  }
+  #content #home > header > h2 {
+    font-size: 26px;
+  }
+  #content #home > header > p {
+    color: rgba(255, 255, 255, 0.6509803922);
+    width: 90%;
+  }
+  #content #home > section {
+    padding: 40px 20px;
+  }
+  #content #home > footer {
+    padding-inline: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* -------------------------------main--------------------------- */
+  main {
+    width: 90%;
+  }
+  /* -------------------------------content--------------------------- */
+  #content {
+    /* ---------------home---------------- */
+  }
+  #content #home > header {
+    min-height: 350px;
+  }
+  #content #home > header > figure {
+    width: 130px;
+    height: 130px;
+  }
+  #content #home > header > figure > img {
+    width: 70px;
+  }
+  #content #home > header > h2 {
+    font-size: 26px;
+  }
+  #content #home > header > p {
+    color: rgba(255, 255, 255, 0.6509803922);
+    width: 50%;
+  }
+  #content #home > section {
+    padding: 40px 50px;
+  }
+  #content #home > section > div {
+    width: 49%;
+  }
+  #content #home > footer {
+    padding-inline: 50px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  /* -------------------------------main--------------------------- */
+  main {
+    width: 85%;
+  }
+  /* -------------------------------content--------------------------- */
+  #content {
+    /* ---------------home---------------- */
+  }
+  #content #home > header {
+    min-height: 350px;
+  }
+  #content #home > header > figure {
+    width: 130px;
+    height: 130px;
+  }
+  #content #home > header > figure > img {
+    width: 70px;
+  }
+  #content #home > header > h2 {
+    font-size: 32px;
+  }
+  #content #home > header > p {
+    color: rgba(255, 255, 255, 0.6509803922);
+    width: 40%;
+  }
+  #content #home > section {
+    padding: 40px 50px;
+  }
+  #content #home > section > div {
+    width: 49%;
+  }
+  #content #home > footer {
+    padding-inline: 50px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  /* -------------------------------main--------------------------- */
+  main {
+    width: 75%;
+  }
+  /* -------------------------------content--------------------------- */
+  #content {
+    /* ---------------home---------------- */
+  }
+  #content #home > header {
+    min-height: 350px;
+  }
+  #content #home > header > figure {
+    width: 130px;
+    height: 130px;
+  }
+  #content #home > header > figure > img {
+    width: 70px;
+  }
+  #content #home > header > h2 {
+    font-size: 32px;
+  }
+  #content #home > header > p {
+    color: rgba(255, 255, 255, 0.6509803922);
+    width: 40%;
+  }
+  #content #home > section {
+    padding: 40px 50px;
+  }
+  #content #home > section > div {
+    width: 49%;
+  }
+  #content #home > footer {
+    padding-inline: 50px;
+  }
+}/*# sourceMappingURL=local.css.map */
