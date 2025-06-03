@@ -246,7 +246,8 @@ main > header > span > span {
   width: 80%;
   height: 40px;
   padding: 12px 16px;
-  background-color: rgba(255, 255, 255, 0.1019607843);
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -263,9 +264,12 @@ main > header > span > span {
 }
 #sideBar #sideBar-btn > a:hover {
   width: 83%;
+  box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
 }
 
-/* -------------------------------conent--------------------------- */
+/* -------------------------------content--------------------------- */
 #content {
   height: calc(100% - 48px);
   position: relative;
