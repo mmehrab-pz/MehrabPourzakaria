@@ -9,6 +9,7 @@
     /* ---------------home---------------- */
     /* ---------------about---------------- */
     /* ---------------portfolio---------------- */
+    /* ---------------services---------------- */
   }
   #content #home > header {
     min-height: 300px;
@@ -110,6 +111,84 @@
   #content #portfolio > footer a {
     font-size: 10px;
   }
+  #content #services > header {
+    padding: 24px 24px 60px 24px;
+  }
+  #content #services > header > div:nth-of-type(1) > h3 {
+    font-size: 24px;
+  }
+  #content #services > header > div:nth-of-type(1) > P {
+    width: 90%;
+  }
+  #content #services > header > div:nth-of-type(2) {
+    margin-top: 80px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure {
+    width: 80px;
+    height: 80px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure > img {
+    width: 45px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+    left: 130px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+    left: 65px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+    left: 0%;
+  }
+  #content #services #services-content {
+    width: 100%;
+  }
+  #content #services #services-content > section:nth-of-type(1) {
+    padding: 32px 25px 40px 25px;
+  }
+  #content #services #services-content > section:nth-of-type(2) {
+    padding: 32px 25px 40px 25px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) {
+    margin-bottom: 35px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > p {
+    width: 90%;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a {
+    width: 48%;
+    background-color: rgba(46, 241, 113, 0.1019607843);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a::before {
+    background-color: rgb(46, 241, 113);
+    filter: blur(40px);
+    border-radius: 50%;
+    opacity: 0.35;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > figure {
+    transform: translateY(-25%);
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > span {
+    top: 70%;
+    opacity: 1;
+    filter: blur(0px);
+  }
+  #content #services > footer {
+    padding-inline: 25px;
+  }
+  #content #services > footer > p,
+  #content #services > footer a {
+    font-size: 10px;
+  }
 }
 @media screen and (min-width: 576px) {
   /* -------------------------------main--------------------------- */
@@ -121,6 +200,7 @@
     /* ---------------home---------------- */
     /* ---------------about---------------- */
     /* ---------------portfolio---------------- */
+    /* ---------------services---------------- */
   }
   #content #home > header {
     min-height: 300px;
@@ -222,6 +302,87 @@
   #content #portfolio > footer a {
     font-size: 10px;
   }
+  #content #services > header {
+    padding: 24px 24px 60px 24px;
+  }
+  #content #services > header > div:nth-of-type(1) > h3 {
+    font-size: 24px;
+  }
+  #content #services > header > div:nth-of-type(1) > P {
+    width: 90%;
+  }
+  #content #services > header > div:nth-of-type(2) {
+    margin-top: 80px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure {
+    width: 80px;
+    height: 80px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure > img {
+    width: 45px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+    left: 130px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+    left: 65px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+    left: 0%;
+  }
+  #content #services #services-content {
+    width: 100%;
+  }
+  #content #services #services-content > section:nth-of-type(1) {
+    padding: 32px 25px 40px 25px;
+  }
+  #content #services #services-content > section:nth-of-type(1) > div {
+    width: 100%;
+  }
+  #content #services #services-content > section:nth-of-type(2) {
+    padding: 32px 25px 40px 25px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) {
+    margin-bottom: 35px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > p {
+    width: 90%;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a {
+    width: 48%;
+    background-color: rgba(46, 241, 113, 0.1019607843);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a::before {
+    background-color: rgb(46, 241, 113);
+    filter: blur(40px);
+    border-radius: 50%;
+    opacity: 0.35;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > figure {
+    transform: translateY(-25%);
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > span {
+    top: 70%;
+    opacity: 1;
+    filter: blur(0px);
+  }
+  #content #services > footer {
+    padding-inline: 25px;
+  }
+  #content #services > footer > p,
+  #content #services > footer a {
+    font-size: 10px;
+  }
 }
 @media screen and (min-width: 768px) {
   /* -------------------------------main--------------------------- */
@@ -319,6 +480,7 @@
   /* -------------------------------content--------------------------- */
   #content {
     /* ---------------home---------------- */
+    /* ---------------services---------------- */
   }
   #content #home > header {
     min-height: 300px;
@@ -343,6 +505,87 @@
   #content #home > footer {
     padding-inline: 20px;
   }
+  #content #services > header {
+    padding: 24px 24px 60px 24px;
+  }
+  #content #services > header > div:nth-of-type(1) > h3 {
+    font-size: 24px;
+  }
+  #content #services > header > div:nth-of-type(1) > P {
+    width: 90%;
+  }
+  #content #services > header > div:nth-of-type(2) {
+    margin-top: 80px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure {
+    width: 80px;
+    height: 80px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure > img {
+    width: 45px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+    left: 130px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+    left: 65px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+    left: 0%;
+  }
+  #content #services #services-content {
+    width: 100%;
+  }
+  #content #services #services-content > section:nth-of-type(1) {
+    padding: 32px 25px 40px 25px;
+  }
+  #content #services #services-content > section:nth-of-type(1) > div {
+    width: 100%;
+  }
+  #content #services #services-content > section:nth-of-type(2) {
+    padding: 32px 25px 40px 25px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) {
+    margin-bottom: 35px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > p {
+    width: 90%;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a {
+    width: 49%;
+    background-color: rgba(46, 241, 113, 0.1019607843);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a::before {
+    background-color: rgb(46, 241, 113);
+    filter: blur(40px);
+    border-radius: 50%;
+    opacity: 0.35;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > figure {
+    transform: translateY(-25%);
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > span {
+    top: 70%;
+    opacity: 1;
+    filter: blur(0px);
+  }
+  #content #services > footer {
+    padding-inline: 25px;
+  }
+  #content #services > footer > p,
+  #content #services > footer a {
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 1200px) {
   /* -------------------------------main--------------------------- */
@@ -354,6 +597,7 @@
     /* ---------------home---------------- */
     /* ---------------about---------------- */
     /* ---------------portfolio---------------- */
+    /* ---------------services---------------- */
   }
   #content #home > header {
     min-height: 350px;
@@ -441,6 +685,93 @@
   #content #portfolio > header > div > P {
     width: 30%;
   }
+  #content #services > header {
+    padding: 55px 48px 30px 48px;
+  }
+  #content #services > header > div:nth-of-type(1) > h3 {
+    font-size: 32px;
+  }
+  #content #services > header > div:nth-of-type(1) > P {
+    width: 70%;
+  }
+  #content #services > header > div:nth-of-type(2) {
+    margin-top: 0px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure {
+    width: 130px;
+    height: 130px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure > img {
+    width: 75px;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+    left: auto;
+    right: 43%;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+    left: auto;
+    right: 21%;
+  }
+  #content #services > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+    left: auto;
+    right: 0%;
+  }
+  #content #services #services-content > section:nth-of-type(1) {
+    padding: 40px 48px 28px 48px;
+  }
+  #content #services #services-content > section:nth-of-type(1) > div {
+    width: 49%;
+  }
+  #content #services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(1) > p {
+    width: 100%;
+  }
+  #content #services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(2) {
+    width: 100%;
+  }
+  #content #services #services-content > section:nth-of-type(2) {
+    padding: 32px 25px 40px 25px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) {
+    margin-bottom: 35px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > h3 {
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > p {
+    width: 40%;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a {
+    width: 235px;
+    background-color: rgba(46, 241, 113, 0.0509803922);
+    box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.15);
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a::before {
+    background-color: rgb(46, 241, 113);
+    filter: blur(40px);
+    border-radius: 50%;
+    opacity: 0;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > figure {
+    transform: translateY(0%);
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(2) > a > span {
+    top: 70%;
+    opacity: 0;
+    filter: blur(0px);
+  }
+  #content #services > footer {
+    padding-inline: 25px;
+  }
+  #content #services > footer > p,
+  #content #services > footer a {
+    font-size: 12px;
+  }
 }
 @media screen and (min-width: 1400px) {
   /* -------------------------------main--------------------------- */
@@ -452,6 +783,7 @@
     /* ---------------home---------------- */
     /* ---------------about---------------- */
     /* ---------------portfolio---------------- */
+    /* ---------------services---------------- */
   }
   #content #home > header {
     min-height: 350px;
@@ -499,6 +831,27 @@
   #content #portfolio > footer a {
     font-size: 12px;
   }
+  #content #services #services-content > section:nth-of-type(1) {
+    padding: 40px 48px 28px 48px;
+  }
+  #content #services #services-content > section:nth-of-type(1) > div {
+    width: 49%;
+  }
+  #content #services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(1) > p {
+    width: 80%;
+  }
+  #content #services #services-content > section:nth-of-type(1) > div > div > div:nth-of-type(2) {
+    width: 85%;
+  }
+  #content #services #services-content > section:nth-of-type(2) {
+    padding: 40px 48px 48px 48px;
+  }
+  #content #services #services-content > section:nth-of-type(2) > div:nth-of-type(1) > p {
+    width: 45%;
+  }
+  #content #services > footer {
+    padding-inline: 48px;
+  }
 }
 @media screen and (min-width: 1600px) {
   /* -------------------------------main--------------------------- */
@@ -509,6 +862,7 @@
   #content {
     /* ---------------home---------------- */
     /* ---------------portfolio---------------- */
+    /* ---------------services---------------- */
   }
   #content #home > header {
     min-height: 350px;
@@ -539,5 +893,8 @@
   #content #portfolio #portfolio-content > div {
     width: 320px;
     height: 435px;
+  }
+  #content #services #services-content > section:nth-of-type(1) > div {
+    width: 49%;
   }
 }/*# sourceMappingURL=local.css.map */
