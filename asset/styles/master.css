@@ -69,7 +69,33 @@ main {
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1490196078);
   display: flex;
+  position: relative;
   /* -------------------------------header--------------------------- */
+}
+main > span {
+  width: 40px !important;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.0509803922);
+  border-radius: 12px;
+  position: fixed;
+  top: 95px;
+  right: 40px;
+  overflow: hidden;
+  -webkit-backdrop-filter: blur(50px);
+          backdrop-filter: blur(50px);
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  z-index: 100;
+  cursor: pointer;
+}
+main > span > figure > img:nth-of-type(1) {
+  width: 20px;
+}
+main > span > figure > img:nth-of-type(2) {
+  width: 25px;
+  display: none;
 }
 main > header {
   width: 100%;
@@ -1557,4 +1583,8 @@ main > header > span > span {
   filter: blur(50px);
   border-radius: 50%;
   opacity: 0.2;
+}
+
+.avtiveMobileSideBar {
+  left: 0 !important;
 }/*# sourceMappingURL=master.css.map */

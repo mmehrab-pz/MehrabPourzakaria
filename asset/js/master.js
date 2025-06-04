@@ -58,6 +58,7 @@ function changeBack(item) {
 
 _li.forEach((item) => {
     item.addEventListener('click', () => {
+        mobileMenu()
         for (let i = 0; i < _li.length; i++) {
             _li[i].classList.remove('navActive')
         }
@@ -81,6 +82,7 @@ homeCards.forEach(item => {
 })
 
 homeBtn.addEventListener('click', () => {
+     mobileMenu()
     _li.forEach(el => el.classList.remove('navActive'))
 
     for (let i = 0; i < _backs.length; i++) {
@@ -95,3 +97,29 @@ homeBtn.addEventListener('click', () => {
     _body.classList.add('homeBack')
     home.classList.add('active')
 })
+
+// ---------------------mobile menu------------------
+
+let menuBtn = document.getElementById('menu-btn')
+let sideBar = document.getElementById('sideBar')
+let openIcone = document.getElementById('open')
+let closeIcone = document.getElementById('close')
+
+menuBtn.addEventListener('click', () => {
+    mobileMenu()
+})
+
+function mobileMenu() {
+    let status = menuBtn.getAttribute('data-status')
+    if (status === 'off') {
+        sideBar.classList.add('avtiveMobileSideBar')
+        menuBtn.setAttribute('data-status', 'on')
+        openIcone.style.display = 'none'
+        closeIcone.style.display = 'block'
+    } else {
+        sideBar.classList.remove('avtiveMobileSideBar')
+        menuBtn.setAttribute('data-status', 'off')
+        openIcone.style.display = 'block'
+        closeIcone.style.display = 'none'
+    }
+}

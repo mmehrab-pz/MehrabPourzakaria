@@ -18,13 +18,20 @@
 
 <body class="homeBack">
     <section id="backs">
-        <div id="_homeBack"></div>
+        <div id="_homeBack" class="active"></div>
         <div id="_aboutBack"></div>
         <div id="_portfolioBack"></div>
         <div id="_servicesBack"></div>
-        <div id="_contactBack" class="active"></div>
+        <div id="_contactBack"></div>
     </section>
     <main class="row">
+        <!-- --------burger menu btn------------ -->
+        <span class="d-lg-none" id="menu-btn" data-status="off">
+            <figure>
+                <img id="open" src="asset/img/svg/menu.svg" alt="menu">
+                <img id="close" src="asset/img/svg/close.svg" alt="close">
+            </figure>
+        </span>
         <!-- -----------------------------------header------------------------------------ -->
         <header class="col-12">
             <h1>mehrab pourzakaria</h1>
@@ -35,7 +42,7 @@
             </span>
         </header>
         <!-- -----------------------------------side bar------------------------------------ -->
-        <section id="sideBar" class="d-none d-lg-block col-3">
+        <section id="sideBar" class="d-lg-block col-3 mobileSideBar">
             <div id="sideBar-mehrab">
                 <figure id="home-btn">
                     <img src="asset/img/mehrab.1.PNG" alt="mehrab pourzakaria">
@@ -67,7 +74,7 @@
         <!-- -----------------------------------content------------------------------------ -->
         <section id="content" class="col-12 col-lg-9">
             <!-- ------------------------home------------------------ -->
-            <section id="home">
+            <section id="home" class="active">
                 <header>
                     <img src="asset/img/ball.webp" alt="ball" class="d-none d-xl-block">
                     <img src="asset/img/laptop.webp" alt="laptop" class="d-none d-xl-block">
@@ -606,7 +613,7 @@
                     </section>
                     <section>
                         <div class="row">
-                            <h3 class="col-12 col-xl-6"> 
+                            <h3 class="col-12 col-xl-6">
                                 🧩 Tools & Technologies
                                 <br>
                                 Powering My Creations
@@ -724,7 +731,7 @@
                 </footer>
             </section>
             <!-- ------------------------contact------------------------ -->
-            <section id="contact" class="active">
+            <section id="contact">
                 <header class="row">
                     <div class="col-12 col-xl-6">
                         <span>cintact</span>
