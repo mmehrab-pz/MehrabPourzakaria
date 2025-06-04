@@ -290,6 +290,109 @@
                 }
             }
         }
+
+        /* ---------------contact---------------- */
+        #contact {
+            >header {
+                padding: 24px 24px 60px 24px;
+
+                >div {
+                    &:nth-of-type(1) {
+
+                        >h3 {
+                            font-size: 24px;
+                        }
+
+                        >P {
+                            width: 90%;
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        margin-top: 80px;
+
+                        >figure {
+                            width: 80px;
+                            height: 80px;
+
+                            >img {
+                                width: 45px;
+                            }
+
+                            &:nth-of-type(1) {
+                                left: 130px;
+                            }
+
+                            &:nth-of-type(2) {
+                                left: 65px;
+                            }
+
+                            &:nth-of-type(3) {
+                                left: 0%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #contact-content {
+                padding: 32px 25px 40px 25px;
+
+                >div {
+                    // width: 49%;
+                    height: 500px;
+                    margin-bottom: 20px;
+
+                    &:nth-of-type(1) {
+                        padding: 32px 24px 40px 24px;
+
+                        >P {
+                            width: 100%;
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        height: auto;
+
+                        >div {
+                            &:nth-of-type(1) {
+                                margin-bottom: 20px;
+
+                                >div {
+
+                                    >a {
+                                        // width: 210px;
+                                        width: 49%;
+                                        background-color: rgba(32, 215, 255, 0.1);
+                                        box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+
+                                        &::before {
+                                            opacity: 0.35;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &:nth-of-type(2) {
+                                >P {
+                                    width: 75%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            >footer {
+                padding-inline: 25px;
+
+                >p,
+                a {
+                    font-size: 10px;
+
+                }
+            }
+        }
     }
 }
 
@@ -586,6 +689,109 @@
                 >p,
                 a {
                     font-size: 10px;
+                }
+            }
+        }
+
+        /* ---------------contact---------------- */
+        #contact {
+            >header {
+                padding: 24px 24px 60px 24px;
+
+                >div {
+                    &:nth-of-type(1) {
+
+                        >h3 {
+                            font-size: 24px;
+                        }
+
+                        >P {
+                            width: 90%;
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        margin-top: 80px;
+
+                        >figure {
+                            width: 80px;
+                            height: 80px;
+
+                            >img {
+                                width: 45px;
+                            }
+
+                            &:nth-of-type(1) {
+                                left: 130px;
+                            }
+
+                            &:nth-of-type(2) {
+                                left: 65px;
+                            }
+
+                            &:nth-of-type(3) {
+                                left: 0%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #contact-content {
+                padding: 32px 25px 40px 25px;
+
+                >div {
+                    // width: 49%;
+                    height: 500px;
+                    margin-bottom: 20px;
+
+                    &:nth-of-type(1) {
+                        padding: 32px 24px 40px 24px;
+
+                        >P {
+                            width: 100%;
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        height: auto;
+
+                        >div {
+                            &:nth-of-type(1) {
+                                margin-bottom: 20px;
+
+                                >div {
+
+                                    >a {
+                                        // width: 210px;
+                                        width: 49%;
+                                        background-color: rgba(32, 215, 255, 0.1);
+                                        box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+
+                                        &::before {
+                                            opacity: 0.35;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &:nth-of-type(2) {
+                                >P {
+                                    width: 75%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            >footer {
+                padding-inline: 25px;
+
+                >p,
+                a {
+                    font-size: 12px;
+
                 }
             }
         }
@@ -1191,6 +1397,111 @@
                 }
             }
         }
+
+        /* ---------------contact---------------- */
+        #contact {
+            >header {
+                padding: 55px 48px 30px 48px;
+
+                >div {
+                    &:nth-of-type(1) {
+
+                        >h3 {
+                            font-size: 32px;
+                        }
+
+                        >P {
+                            width: 70%;
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        margin-top: 0px;
+
+                        >figure {
+                            width: 130px;
+                            height: 130px;
+
+                            >img {
+                                width: 75px;
+                            }
+
+                            &:nth-of-type(1) {
+                                left: auto;
+                                right: 43%;
+                            }
+
+                            &:nth-of-type(2) {
+                                left: auto;
+                                right: 21%;
+                            }
+
+                            &:nth-of-type(3) {
+                                left: auto;
+                                right: 0%;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #contact-content {
+                padding: 32px 25px 40px 25px;
+
+                >div {
+                    width: 49%;
+                    margin-bottom: 0px;
+
+                    &:nth-of-type(1) {
+                        padding: 32px 24px 40px 24px;
+
+                        >P {
+                            width: 100%;
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        height: 500px;
+
+                        >div {
+                            &:nth-of-type(1) {
+                                margin-bottom: 0px;
+
+                                >div {
+
+                                    >a {
+                                        // width: 210px;
+                                        width: 49%;
+                                        background-color: #20d7ff0d;
+                                        box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.15);
+
+                                        &::before {
+                                            opacity: 0;
+                                        }
+                                    }
+                                }
+                            }
+
+                            &:nth-of-type(2) {
+                                >P {
+                                    width: 75%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            >footer {
+                padding-inline: 25px;
+
+                >p,
+                a {
+                    font-size: 10px;
+
+                }
+            }
+        }
     }
 }
 
@@ -1336,6 +1647,35 @@
                 padding-inline: 48px;
             }
         }
+
+        /* ---------------contact---------------- */
+        #contact {
+            #contact-content {
+                padding: 40px 48px 48px 48px;
+
+                >div {
+                    &:nth-of-type(1) {
+                        >P {
+                            width: 80%;
+                        }
+                    }
+
+                    &:nth-of-type(2) {
+                        >div {
+                            &:nth-of-type(2) {
+                                >P {
+                                    width: 55%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            >footer {
+                padding-inline: 48px;
+            }
+        }
     }
 }
 
@@ -1406,7 +1746,7 @@
                     &:nth-of-type(1) {
                         >div {
                             // width: 485px;
-                             width: 49%;
+                            width: 49%;
                         }
                     }
                 }

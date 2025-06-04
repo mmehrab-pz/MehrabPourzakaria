@@ -10,6 +10,7 @@
     /* ---------------about---------------- */
     /* ---------------portfolio---------------- */
     /* ---------------services---------------- */
+    /* ---------------contact---------------- */
   }
   #content #home > header {
     min-height: 300px;
@@ -189,6 +190,71 @@
   #content #services > footer a {
     font-size: 10px;
   }
+  #content #contact > header {
+    padding: 24px 24px 60px 24px;
+  }
+  #content #contact > header > div:nth-of-type(1) > h3 {
+    font-size: 24px;
+  }
+  #content #contact > header > div:nth-of-type(1) > P {
+    width: 90%;
+  }
+  #content #contact > header > div:nth-of-type(2) {
+    margin-top: 80px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure {
+    width: 80px;
+    height: 80px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure > img {
+    width: 45px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+    left: 130px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+    left: 65px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+    left: 0%;
+  }
+  #content #contact #contact-content {
+    padding: 32px 25px 40px 25px;
+  }
+  #content #contact #contact-content > div {
+    height: 500px;
+    margin-bottom: 20px;
+  }
+  #content #contact #contact-content > div:nth-of-type(1) {
+    padding: 32px 24px 40px 24px;
+  }
+  #content #contact #contact-content > div:nth-of-type(1) > P {
+    width: 100%;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) {
+    height: auto;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) {
+    margin-bottom: 20px;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div > a {
+    width: 49%;
+    background-color: rgba(32, 215, 255, 0.1);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div > a::before {
+    opacity: 0.35;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(2) > P {
+    width: 75%;
+  }
+  #content #contact > footer {
+    padding-inline: 25px;
+  }
+  #content #contact > footer > p,
+  #content #contact > footer a {
+    font-size: 10px;
+  }
 }
 @media screen and (min-width: 576px) {
   /* -------------------------------main--------------------------- */
@@ -201,6 +267,7 @@
     /* ---------------about---------------- */
     /* ---------------portfolio---------------- */
     /* ---------------services---------------- */
+    /* ---------------contact---------------- */
   }
   #content #home > header {
     min-height: 300px;
@@ -382,6 +449,71 @@
   #content #services > footer > p,
   #content #services > footer a {
     font-size: 10px;
+  }
+  #content #contact > header {
+    padding: 24px 24px 60px 24px;
+  }
+  #content #contact > header > div:nth-of-type(1) > h3 {
+    font-size: 24px;
+  }
+  #content #contact > header > div:nth-of-type(1) > P {
+    width: 90%;
+  }
+  #content #contact > header > div:nth-of-type(2) {
+    margin-top: 80px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure {
+    width: 80px;
+    height: 80px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure > img {
+    width: 45px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+    left: 130px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+    left: 65px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+    left: 0%;
+  }
+  #content #contact #contact-content {
+    padding: 32px 25px 40px 25px;
+  }
+  #content #contact #contact-content > div {
+    height: 500px;
+    margin-bottom: 20px;
+  }
+  #content #contact #contact-content > div:nth-of-type(1) {
+    padding: 32px 24px 40px 24px;
+  }
+  #content #contact #contact-content > div:nth-of-type(1) > P {
+    width: 100%;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) {
+    height: auto;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) {
+    margin-bottom: 20px;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div > a {
+    width: 49%;
+    background-color: rgba(32, 215, 255, 0.1);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.15);
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div > a::before {
+    opacity: 0.35;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(2) > P {
+    width: 75%;
+  }
+  #content #contact > footer {
+    padding-inline: 25px;
+  }
+  #content #contact > footer > p,
+  #content #contact > footer a {
+    font-size: 12px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -598,6 +730,7 @@
     /* ---------------about---------------- */
     /* ---------------portfolio---------------- */
     /* ---------------services---------------- */
+    /* ---------------contact---------------- */
   }
   #content #home > header {
     min-height: 350px;
@@ -772,6 +905,74 @@
   #content #services > footer a {
     font-size: 12px;
   }
+  #content #contact > header {
+    padding: 55px 48px 30px 48px;
+  }
+  #content #contact > header > div:nth-of-type(1) > h3 {
+    font-size: 32px;
+  }
+  #content #contact > header > div:nth-of-type(1) > P {
+    width: 70%;
+  }
+  #content #contact > header > div:nth-of-type(2) {
+    margin-top: 0px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure {
+    width: 130px;
+    height: 130px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure > img {
+    width: 75px;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure:nth-of-type(1) {
+    left: auto;
+    right: 43%;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure:nth-of-type(2) {
+    left: auto;
+    right: 21%;
+  }
+  #content #contact > header > div:nth-of-type(2) > figure:nth-of-type(3) {
+    left: auto;
+    right: 0%;
+  }
+  #content #contact #contact-content {
+    padding: 32px 25px 40px 25px;
+  }
+  #content #contact #contact-content > div {
+    width: 49%;
+    margin-bottom: 0px;
+  }
+  #content #contact #contact-content > div:nth-of-type(1) {
+    padding: 32px 24px 40px 24px;
+  }
+  #content #contact #contact-content > div:nth-of-type(1) > P {
+    width: 100%;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) {
+    height: 500px;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) {
+    margin-bottom: 0px;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div > a {
+    width: 49%;
+    background-color: rgba(32, 215, 255, 0.0509803922);
+    box-shadow: inset 0px 0px 0px 0px rgba(255, 255, 255, 0.15);
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(1) > div > a::before {
+    opacity: 0;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(2) > P {
+    width: 75%;
+  }
+  #content #contact > footer {
+    padding-inline: 25px;
+  }
+  #content #contact > footer > p,
+  #content #contact > footer a {
+    font-size: 10px;
+  }
 }
 @media screen and (min-width: 1400px) {
   /* -------------------------------main--------------------------- */
@@ -784,6 +985,7 @@
     /* ---------------about---------------- */
     /* ---------------portfolio---------------- */
     /* ---------------services---------------- */
+    /* ---------------contact---------------- */
   }
   #content #home > header {
     min-height: 350px;
@@ -850,6 +1052,18 @@
     width: 45%;
   }
   #content #services > footer {
+    padding-inline: 48px;
+  }
+  #content #contact #contact-content {
+    padding: 40px 48px 48px 48px;
+  }
+  #content #contact #contact-content > div:nth-of-type(1) > P {
+    width: 80%;
+  }
+  #content #contact #contact-content > div:nth-of-type(2) > div:nth-of-type(2) > P {
+    width: 55%;
+  }
+  #content #contact > footer {
     padding-inline: 48px;
   }
 }
