@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+  #formLoading {
+    width: 90%;
+  }
   /* -------------------------------main--------------------------- */
   main {
     width: 95%;
@@ -257,6 +260,9 @@
   }
 }
 @media screen and (min-width: 576px) {
+  #formLoading {
+    width: 90%;
+  }
   /* -------------------------------main--------------------------- */
   main {
     width: 95%;
@@ -517,6 +523,9 @@
   }
 }
 @media screen and (min-width: 768px) {
+  #formLoading {
+    width: 80%;
+  }
   /* -------------------------------main--------------------------- */
   main {
     width: 95%;
@@ -720,6 +729,9 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  #formLoading {
+    width: 60%;
+  }
   /* -------------------------------main--------------------------- */
   main {
     width: 90%;
@@ -975,6 +987,9 @@
   }
 }
 @media screen and (min-width: 1400px) {
+  #formLoading {
+    width: 50%;
+  }
   /* -------------------------------main--------------------------- */
   main {
     width: 95%;

@@ -19,6 +19,12 @@
     }
 }
 
+@keyframes l15 {
+    100% {
+        transform: rotate(1turn)
+    }
+}
+
 /* ------------------------------------------------------------------------------------------------ */
 body {
     width: 100%;
@@ -1582,6 +1588,7 @@ main {
                             transition: .3s ease;
                             overflow: hidden;
                             margin-bottom: 10px;
+                            position: relative;
 
                             &:has(input:focus) {
                                 background-color: #20d6ff1e;
@@ -1605,6 +1612,18 @@ main {
                                     font-size: 14px;
                                     font-family: 'Inter-Regular';
                                     color: #ffffff4d;
+                                }
+                            }
+
+                            >figure {
+                                position: absolute;
+                                top: 50%;
+                                left: 95%;
+                                transform: translate(-50%, -50%);
+                                display: none;
+
+                                >img {
+                                    width: 30px;
                                 }
                             }
 
@@ -1901,3 +1920,114 @@ main {
     left: 0 !important;
 }
 
+.curtainOn {
+    display: flex;
+}
+
+.curtainOff {
+    display: none;
+}
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 70px;
+    aspect-ratio: 1;
+    display: grid;
+    border: 4px solid #0000;
+    border-radius: 50%;
+    border-right-color: #25b09b;
+    animation: l15 1s infinite linear;
+}
+
+.loader::before,
+.loader::after {
+    content: "";
+    grid-area: 1/1;
+    margin: 2px;
+    border: inherit;
+    border-radius: 50%;
+    animation: l15 2s infinite;
+}
+
+.loader::after {
+    margin: 8px;
+    animation-duration: 3s;
+}
+
+.loaderOff {
+    display: none !important;
+}
+
+.loaderOn {
+    display: grid !important;
+}
+
+
+
+#curtain {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.582);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 101;
+}
+
+#formLoading {
+    display: none;
+    width: 50%;
+    height: 400px;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.35);
+    z-index: 102;
+    justify-content: center;
+    align-items: center;
+
+    #done,
+    #error {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        display: none;
+
+        >figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            >img {
+                margin-bottom: 30px;
+                width: 70px;
+            }
+
+            >figcaption {
+                font-family: 'Inter-Regular';
+                color: #20d7ff;
+                text-transform: capitalize;
+                text-align: center;
+            }
+        }
+    }
+
+    #error {
+        >figure {
+            >figcaption {
+                color: #FF0000;
+            }
+        }
+    }
+}
+
+.inputError {
+    border: 2px solid red !important;
+}
