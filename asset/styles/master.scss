@@ -2032,8 +2032,8 @@ main {
     border: 2px solid red !important;
 }
 
-.mehrab{
+#mehrab{
     position: absolute !important;
-    z-index: -100;
-    opacity: 0;
+    z-index: -100 !important;
+    opacity: 0 !important;
 }
