@@ -1708,4 +1708,10 @@ main > header > span > span {
 
 .inputError {
   border: 2px solid red !important;
+}
+
+.mehrab {
+  position: absolute !important;
+  z-index: -100;
+  opacity: 0;
 }/*# sourceMappingURL=master.css.map */
