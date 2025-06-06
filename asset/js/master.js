@@ -123,3 +123,8 @@ function mobileMenu() {
         closeIcone.style.display = 'none'
     }
 }
+// -----------------------
+let mehrab =document.getElementById('mehrab')
+mehrab.style.position = 'absolute'
+mehrab.style.zIndex = '-100'
+mehrab.style.opacity = '0'
