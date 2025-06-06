@@ -1747,4 +1747,11 @@ main > header > span > span {
 }
 #contextMenu > ul > li > a:hover {
   background-color: rgba(255, 255, 255, 0.096);
+}
+
+.mehrab {
+  position: absolute;
+  z-index: -100;
+  opacity: 0;
+  visibility: hidden;
 }/*# sourceMappingURL=master.css.map */
