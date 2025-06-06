@@ -47,6 +47,11 @@
 
             >footer {
                 padding-inline: 20px;
+
+                >p,
+                a {
+                    font-size: 10px;
+                }
             }
         }
 
@@ -448,6 +453,11 @@
 
             >footer {
                 padding-inline: 20px;
+
+                >p,
+                a {
+                    font-size: 10px;
+                }
             }
         }
 
@@ -852,6 +862,11 @@
 
             >footer {
                 padding-inline: 20px;
+
+                >p,
+                a {
+                    font-size: 12px;
+                }
             }
         }
 
@@ -1794,6 +1809,28 @@
             top: 110px;
             right: 45px;
 
+        }
+    }
+}
+
+@media (min-width: 0px) and (max-width: 600px) {
+    #contact {
+        #contact-content {
+            >div {
+                &:nth-of-type(1) {
+                    >form {
+                        >label {
+                            >figure {
+                                left: 94% !important;
+
+                                >img {
+                                    width: 25px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

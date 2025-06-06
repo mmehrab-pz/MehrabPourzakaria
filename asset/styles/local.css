@@ -38,6 +38,10 @@
   #content #home > footer {
     padding-inline: 20px;
   }
+  #content #home > footer > p,
+  #content #home > footer a {
+    font-size: 10px;
+  }
   #content #about > header {
     padding: 24px 24px 60px 24px;
   }
@@ -298,6 +302,10 @@
   #content #home > footer {
     padding-inline: 20px;
   }
+  #content #home > footer > p,
+  #content #home > footer a {
+    font-size: 10px;
+  }
   #content #about > header {
     padding: 24px 24px 60px 24px;
   }
@@ -557,6 +565,10 @@
   }
   #content #home > footer {
     padding-inline: 20px;
+  }
+  #content #home > footer > p,
+  #content #home > footer a {
+    font-size: 12px;
   }
   #content #about > header {
     padding: 24px 24px 60px 24px;
@@ -1146,5 +1158,13 @@
   main > span {
     top: 110px;
     right: 45px;
+  }
+}
+@media (min-width: 0px) and (max-width: 600px) {
+  #contact #contact-content > div:nth-of-type(1) > form > label > figure {
+    left: 94% !important;
+  }
+  #contact #contact-content > div:nth-of-type(1) > form > label > figure > img {
+    width: 25px !important;
   }
 }/*# sourceMappingURL=local.css.map */
